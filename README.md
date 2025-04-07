@@ -73,5 +73,5 @@ horoscope-predictor/
 
 🧚‍♀️ Author
 Made with love and a sprinkle of delusion by Swati Upadhyay 💫
-You're not just predicting horoscopes, you're building magic with machine learning. Stay dreamy 💖
+
 
