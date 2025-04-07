@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horoscope Predictor 🔯</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Horoscope Predictor</h1>
+    <form id="horoscope-form">
+      <label for="sign">Select Your Zodiac Sign:</label>
+      <select id="sign" name="sign" required>
+        <option value="">--Choose your sign--</option>
+        <option value="aries">♈ Aries</option>
+        <option value="taurus">♉ Taurus</option>
+        <option value="gemini">♊ Gemini</option>
+        <option value="cancer">♋ Cancer</option>
+        <option value="leo">♌ Leo</option>
+        <option value="virgo">♍ Virgo</option>
+        <option value="libra">♎ Libra</option>
+        <option value="scorpio">♏ Scorpio</option>
+        <option value="sagittarius">♐ Sagittarius</option>
+        <option value="capricorn">♑ Capricorn</option>
+        <option value="aquarius">♒ Aquarius</option>
+        <option value="pisces">♓ Pisces</option>
+      </select>
+      <button type="submit" id="reveal-btn">Reveal My Fate 🔮</button>
+    </form>
+
+    <div id="prediction-result" class="hidden">
+      <h2>🌠 Your Horoscope Prediction 🌠</h2>
+      <p id="result-text">Loading the stars...</p>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

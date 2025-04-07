@@ -1,0 +1,14 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore model files (if you don’t want them in the repo)
+*.pkl
+
+# Ignore virtual environment (if created)
+venv/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
